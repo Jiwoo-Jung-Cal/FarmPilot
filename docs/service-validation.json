@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.2",
   "passed": 21,
   "checks": [
     "owner records and actions require operator identity",
@@ -25,5 +25,5 @@
     "server deletion removes request and connected feedback"
   ],
   "environment": "Actual handler and generated migrations with in-memory SQLite D1 adapter; synthetic inputs; no live SMS or field evaluation",
-  "date": "2026-10-04T12:20:51.316Z"
+  "date": "2026-10-04T13:57:07.376Z"
 }

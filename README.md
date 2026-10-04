@@ -2,13 +2,16 @@
 
 **You grow the coffee. We help brew the ideas.**
 
-World Bank Small AI for Development Hackathon · **Track C: Tourism** · Version 3.0.2 · 4 October 2026
+World Bank Small AI for Development Hackathon · **Track C: Tourism** · Version 3.0.3 · 4 October 2026
 
 FarmPilot helps a small tourism operator turn scattered guest feedback into one practical, human-approved improvement. The central workflow is **feedback → local analysis → original evidence → human correction → approved plan → recorded observation**. A visitor website, controlled booking requests and optional local translation support that workflow.
 
-**Submission status:** working prototype and editable source; automated checks completed below. The mandatory video must still be recorded and submitted. Target-phone, native-speaker and field-impact validation remain outstanding. This README is the GitHub report; it does not substitute for those deliverables.
+**Submission status:** prototype, editable source, report and recorded videos prepared. Public static demo: https://farm-pilot-five.vercel.app/offline/index.html. Submission acceptance is pending the organizers’ decision. Target-phone, native-speaker and field-impact validation remain outstanding. This README is the GitHub report; it does not substitute for the videos or field validation.
 
 ## Quick links
+
+Version 3.0.3 restores missing GitHub source/public folders and adds a self-contained Vercel static build plus tagged releases. See [publication instructions](docs/PUBLISH.md) and [release notes](docs/RELEASE-3.0.3.md). Optional language model ZIPs belong in GitHub Releases; the base repository includes the full English feedback model and runtime.
+
 
 | Goal | File |
 | --- | --- |

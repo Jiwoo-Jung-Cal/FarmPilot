@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "createdAt": "2026-10-04T12:30:20.627Z",
+  "coreBytes": 2378794,
+  "totalBytes": 48134570,
+  "files": [
+    {
+      "url": "/favicon.svg",
+      "profile": "core",
+      "bytes": 185,
+      "sha256": "50c94ecbdcd46caf64e0fb6f5da5691cefbce65abf7220c7758df98bec1b5e5a"
+    },
+    {
+      "url": "/icon-192.png",
+      "profile": "core",
+      "bytes": 822,
+      "sha256": "c4324461433d3d3e41de68698952d9a0f9f0022d51acc41ab3a83c801b0bef8b"
+    },
+    {
+      "url": "/icon-512.png",
+      "profile": "core",
+      "bytes": 2535,
+      "sha256": "b62c334b7250dbb980615e62c14ef5f9f145bc9fa8799d7d9e9bcd1eb6d4b52e"
+    },
+    {
+      "url": "/manifest.webmanifest",
+      "profile": "core",
+      "bytes": 416,
+      "sha256": "0438a259fdccd6fe40fe72c68dc836ba1608707d153e85b0e9f9e8681ed4579f"
+    },
+    {
+      "url": "/evaluation.json",
+      "profile": "core",
+      "bytes": 9009,
+      "sha256": "2ff3fa2711ec6ff105eae8c18bdd9fce1d6411b1c63fc984e957a16ea8a1e076"
+    },
+    {
+      "url": "/farm-illustration.jpg",
+      "profile": "core",
+      "bytes": 401943,
+      "sha256": "7f75864fef33a052250f33d91fe07b42cf0eb6573da8cbd3576d02f7b7cddf4e"
+    },
+    {
+      "url": "/translation/worker.js",
+      "profile": "core",
+      "bytes": 8270,
+      "sha256": "71ac8f24ed2851504e1687711bb6a5a7585248fc93039702f3169b725d45500a"
+    },
+    {
+      "url": "/translation/archive.js",
+      "profile": "core",
+      "bytes": 4039,
+      "sha256": "351db71a05c9ff207ff9d1ca36f7472399c4b2eee99a46253d97a626cd1ef881"
+    },
+    {
+      "url": "/translation/manifest.json",
+      "profile": "core",
+      "bytes": 40109,
+      "sha256": "266c6dff70154bdbc751d312a33b64151fad45914f54952922bdf4b5dfb36540"
+    },
+    {
+      "url": "/offline/app.css",
+      "profile": "core",
+      "bytes": 200744,
+      "sha256": "3e747e1bda292c2a1b91c98005e5d1a509e0688dab30df35fa86d07425d06019"
+    },
+    {
+      "url": "/offline/app.js",
+      "profile": "core",
+      "bytes": 822073,
+      "sha256": "8c6824aef7431cb5100ea06ea7dde515efb6c7233d74292178e95a25c4e8edcf"
+    },
+    {
+      "url": "/offline/index.html",
+      "profile": "core",
+      "bytes": 476,
+      "sha256": "2a0a05095517c2ab098a2f71cb2eebe7bfc23362400339e50e66a3890f7ab63d"
+    },
+    {
+      "url": "/models/minilm/config.json",
+      "profile": "full",
+      "bytes": 650,
+      "sha256": "7135149f7cffa1a573466c6e4d8423ed73b62fd2332c575bf738a0d033f70df7"
+    },
+    {
+      "url": "/models/minilm/onnx/model_quantized.onnx",
+      "profile": "full",
+      "bytes": 22972370,
+      "sha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1"
+    },
+    {
+      "url": "/models/minilm/tokenizer.json",
+      "profile": "full",
+      "bytes": 711661,
+      "sha256": "da0e79933b9ed51798a3ae27893d3c5fa4a201126cef75586296df9b4d2c62a0"
+    },
+    {
+      "url": "/models/minilm/tokenizer_config.json",
+      "profile": "full",
+      "bytes": 366,
+      "sha256": "9261e7d79b44c8195c1cada2b453e55b00aeb81e907a6664974b4d7776172ab3"
+    },
+    {
+      "url": "/runtime/Apache-2.0.txt",
+      "profile": "full",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "url": "/runtime/ONNX-Runtime-MIT.txt",
+      "profile": "full",
+      "bytes": 1095,
+      "sha256": "d25deed12d803f6c973597348627b1939e2d19bbc28fda83c93ea0cde44702da"
+    },
+    {
+      "url": "/runtime/loader.js",
+      "profile": "full",
+      "bytes": 82,
+      "sha256": "744e3834d3e9817c54210cc6a99d0de0f239bdcc5927fbac29e29d847f287d3f"
+    },
+    {
+      "url": "/runtime/ort-wasm-simd-threaded.jsep.mjs",
+      "profile": "full",
+      "bytes": 44484,
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "url": "/runtime/ort-wasm-simd-threaded.jsep.wasm",
+      "profile": "full",
+      "bytes": 21596019,
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    },
+    {
+      "url": "/runtime/third-party-notices.txt",
+      "profile": "full",
+      "bytes": 417691,
+      "sha256": "1013a27de21f927680a207370c3b86ba9132322e36954c73c5f5f2c247fc01ea"
+    },
+    {
+      "url": "/runtime/transformers.web.min.js",
+      "profile": "core",
+      "bytes": 888173,
+      "sha256": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa"
+    }
+  ]
+}

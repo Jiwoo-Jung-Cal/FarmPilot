@@ -1,0 +1,43 @@
+name: Publish versioned web release
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing version tag to publish
+        required: true
+        default: v3.0.3
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      RELEASE_TAG: ${{ github.event.inputs.tag || github.ref_name }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.tag || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Verify version and build static demo
+        run: |
+          node -e 'if ("v" + JSON.parse(require("fs").readFileSync("package.json")).version !== process.env.RELEASE_TAG) throw new Error("Tag must match package version")'
+          node scripts/build-static.mjs
+      - name: Package release
+        run: |
+          mkdir -p release
+          (cd static && zip -qr "../release/FarmPilot-${RELEASE_TAG}-Static.zip" .)
+          cp README.md release/FarmPilot-Report.md
+          cp docs/VIDEO_SCRIPTS.md release/FarmPilot-Video-Scripts.md
+          (cd release && sha256sum * > SHA256SUMS.txt)
+      - name: Publish release assets
+        run: |
+          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
+            gh release upload "$RELEASE_TAG" release/* --clobber
+          else
+            gh release create "$RELEASE_TAG" release/* --verify-tag --title "FarmPilot ${RELEASE_TAG}" --notes-file docs/RELEASE-3.0.3.md
+          fi
