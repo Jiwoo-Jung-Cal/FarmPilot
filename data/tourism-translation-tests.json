@@ -1,0 +1,23 @@
+{
+  "license": "CC-BY-SA-4.0",
+  "kind": "Authored robustness prompts; no human reference translations and no accuracy claim",
+  "sources": [
+    "https://en.wikivoyage.org/w/index.php?title=Coffee&oldid=5376106",
+    "World Bank Challenge, Annex C"
+  ],
+  "prompts": [
+    "Can we visit the farm tomorrow?",
+    "The visit costs KES 1200 for 2 people.",
+    "We can meet at 10:00.",
+    "Is this a guided walk or a coffee tasting?",
+    "Can I try grinding the coffee?",
+    "Is there a place to sit in the shade?",
+    "Can you explain the difference between arabica and robusta?",
+    "Does the tasting include an espresso or filter coffee?",
+    "Can I buy roasted coffee after the visit?",
+    "Is the path suitable for a wheelchair?",
+    "We cannot confirm the visit until the operator approves it.",
+    "Please contact the operator to discuss transport and dietary needs."
+  ],
+  "attribution": "FarmPilot authored prompts, informed by Wikivoyage Coffee contributors; https://en.wikivoyage.org/w/index.php?title=Coffee&action=history"
+}
