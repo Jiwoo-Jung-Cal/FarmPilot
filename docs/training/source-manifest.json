@@ -1,0 +1,67 @@
+[
+  {
+    "name": "MASSIVE 1.1",
+    "license": "CC-BY-4.0",
+    "role": "translation fine-tuning and partition-preserving evaluation",
+    "url": "https://amazon-massive-nlu-dataset.s3.amazonaws.com/amazon-massive-dataset-1.1.tar.gz",
+    "bytes": 40251390,
+    "sha256": "4cba5faa11c71437928e17cb1b9b3d8b8e727e7ea363a3a9a8045e19c0491577"
+  },
+  {
+    "name": "FLORES-200 original archive",
+    "license": "CC-BY-SA-4.0",
+    "role": "evaluation only; no gradient updates or model selection",
+    "url": "https://dl.fbaipublicfiles.com/nllb/flores200_dataset.tar.gz",
+    "bytes": 25585843,
+    "sha256": "b8b0b76783024b85797e5cc75064eb83fc5288b41e9654dabc7be6ae944011f6"
+  },
+  {
+    "name": "World Bank WDI IT.NET.USER.ZS",
+    "license": "CC-BY-4.0 (indicator-specific metadata applies)",
+    "role": "Kenya scenario context only; not farm-level facts or model training",
+    "url": "https://api.worldbank.org/v2/country/KEN/indicator/IT.NET.USER.ZS?date=2000:2025&format=json&per_page=100",
+    "bytes": 6073,
+    "sha256": "249a4e034106b2762c0cdc36cfce5cca3a433d3c6b2e17db90b479a38f1d03e8"
+  },
+  {
+    "name": "World Bank WDI ST.INT.ARVL",
+    "license": "CC-BY-4.0 (indicator-specific metadata applies)",
+    "role": "Kenya scenario context only; not farm-level facts or model training",
+    "url": "https://api.worldbank.org/v2/country/KEN/indicator/ST.INT.ARVL?date=2000:2025&format=json&per_page=100",
+    "bytes": 5715,
+    "sha256": "42542e82c0b71d70b446e03f44b8bc119d88d28549f85cf2fa7e22d28bd73217"
+  },
+  {
+    "name": "World Bank WDI ST.INT.RCPT.CD",
+    "license": "CC-BY-4.0 (indicator-specific metadata applies)",
+    "role": "Kenya scenario context only; not farm-level facts or model training",
+    "url": "https://api.worldbank.org/v2/country/KEN/indicator/ST.INT.RCPT.CD?date=2000:2025&format=json&per_page=100",
+    "bytes": 5952,
+    "sha256": "d8b80b1baed2cf4538899d5e5e0d0a8f786a2ab009b52fddb26deaf18921d5cc"
+  },
+  {
+    "name": "Wikivoyage Coffee",
+    "url": "https://en.wikivoyage.org/w/index.php?title=Coffee&oldid=5376106",
+    "license": "CC-BY-SA-4.0",
+    "role": "source for a 12-question tourism robustness test; not approved farm facts",
+    "bytes": 17360,
+    "sha256": "da9d5631a615bea2bde4a29f0f98c5e1284ae18d130c95b5ddf6f59639d1276c",
+    "attribution": "Wikivoyage Coffee contributors (linked article history)",
+    "bbox": null
+  },
+  {
+    "name": "OpenStreetMap Nyeri guesthouses",
+    "url": "https://overpass-api.de/api/interpreter",
+    "license": "ODbL-1.0",
+    "role": "bounded discovery baseline for a Kenya reference area; not fictional Ondera coordinates",
+    "bytes": 880,
+    "sha256": "8a31a4cff9111613daf22af51b2c69507242723d8fadb5b45a39eef0e214e21e",
+    "attribution": "\u00a9 OpenStreetMap contributors; https://www.openstreetmap.org/copyright",
+    "bbox": [
+      -0.5,
+      36.8,
+      -0.3,
+      37.1
+    ]
+  }
+]

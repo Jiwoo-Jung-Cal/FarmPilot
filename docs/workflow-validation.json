@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "passed": 15,
+  "checks": [
+    "message-language validation accepts four languages and rejects inherited object keys",
+    "request estimates use approved per-person prices",
+    "no consent, invalid activity, invalid date and invalid guest count are rejected",
+    "request cannot confirm before an operator quote",
+    "operator quote awaits visitor acceptance and has expiry",
+    "expired quote cannot be accepted",
+    "visitor acceptance confirms the quoted total",
+    "overlapping visits cannot exceed capacity",
+    "confirmation rechecks capacity when another quote was accepted",
+    "closed decisions cannot be replayed",
+    "feedback permissions are separate and identifiers are scrubbed",
+    "business validation rejects negative prices and malformed times",
+    "backup validation preserves approved state and rejects duplicate requests",
+    "malformed backup records fail without accepting partial data",
+    "listing export uses explicit business data and demo disclosure"
+  ],
+  "environment": "Node state-machine tests; not field validation",
+  "date": "2026-10-04T12:19:57.254Z"
+}

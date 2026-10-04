@@ -1,0 +1,47 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-04T11:06:21Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1170757938,
+  "lat": -0.4376601,
+  "lon": 36.9726963,
+  "tags": {
+    "addr:city": "Nyeri",
+    "internet_access": "no",
+    "internet_access:fee": "no",
+    "name": "Green edges",
+    "smoking": "no",
+    "stars": "5",
+    "tourism": "guest_house",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 5482487176,
+  "lat": -0.3172702,
+  "lon": 36.9130634,
+  "tags": {
+    "name": "St. Joseph",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 11389724776,
+  "lat": -0.4313787,
+  "lon": 36.9605934,
+  "tags": {
+    "tourism": "guest_house"
+  }
+}
+
+  ]
+}

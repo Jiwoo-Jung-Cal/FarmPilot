@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "platform": "Linux cross-build",
+  "artifacts": [
+    {
+      "file": "Noor-Fieldnotes-2.0.0-mac-arm64.dmg",
+      "bytes": 159146427,
+      "sha256": "a5c86ea6668d36fd7c192d07700f565367ec07e802d64654ea14165bd6a98b1b"
+    },
+    {
+      "file": "Noor-Fieldnotes-2.0.0-mac-x64.dmg",
+      "bytes": 164433486,
+      "sha256": "b4b3ecc9cf89afcc52fd1d7f44861b2145c1d05bfae8592aac57ba3451523c73"
+    },
+    {
+      "file": "Noor-Fieldnotes-Setup-2.0.0-x64.exe",
+      "bytes": 130790502,
+      "sha256": "9bef6ec88e4386da1b76d08737ec8afe57732e13e065662d8359cd1245401e15"
+    }
+  ],
+  "assetFiles": 20,
+  "payloadBytes": 48067466,
+  "modelSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+  "windows": {
+    "nsisBuild": "passed",
+    "unpackedPayloadHashes": "passed",
+    "nativeInstallAndLaunch": "pending",
+    "signing": "unsigned",
+    "installerExtraction": "passed",
+    "extractedPayloadHashes": "passed"
+  },
+  "mac": {
+    "arm64DmgReadAndExtract": "passed",
+    "x64DmgReadAndExtract": "passed",
+    "extractedPayloadHashes": "passed",
+    "allMachOCodePageHashes": "passed",
+    "MachOFilesPerBundle": 13,
+    "signing": "ad hoc; no Developer ID or notarization",
+    "nativeAppleTrustAndLaunch": "pending",
+    "rcodesignVerify": "inconclusive: the tool reported its known CMS verification bug; code-page hashes checked separately",
+    "asarIntegrityEnforcement": "not embedded by Linux cross-packager; native builds recommended for production"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "serviceWorker": "passed",
+  "coreBytes": 2378794,
+  "fullBytes": 48134570,
+  "checks": [
+    "core install excludes large models and WASM while retaining the ZIP importer and small translation module",
+    "full package integrity verified",
+    "root, app, styles and AI assets available without network",
+    "failed or corrupt update retains installed package",
+    "API and write requests excluded"
+  ],
+  "environment": "Node VM with CacheStorage simulation and actual packaged files; no real-phone validation",
+  "phoneAirplaneMode": "pending",
+  "nativeSwahiliReview": "pending"
+}

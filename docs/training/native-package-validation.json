@@ -1,0 +1,52 @@
+{
+  "version": "3.0.0",
+  "nativeLaunch": "pending",
+  "appleTrustVerification": "pending",
+  "windowsPublisherSigning": "unsigned",
+  "macSigning": "ad hoc development; no Developer ID/notarization",
+  "bundles": [
+    {
+      "platform": "windows",
+      "status": "passed",
+      "files": 22,
+      "verifiedBytes": 48128337,
+      "translationBytes": 853316380,
+      "translationDirections": 6,
+      "modelSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+      "method": "Exact packaged files fetched through the desktop asset handler; SHA-256, length and WASM MIME checked",
+      "nativeLaunch": "pending"
+    },
+    {
+      "platform": "mac-arm64",
+      "status": "passed",
+      "files": 22,
+      "verifiedBytes": 48128337,
+      "translationBytes": 853316380,
+      "translationDirections": 6,
+      "modelSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+      "method": "Exact packaged files fetched through the desktop asset handler; SHA-256, length and WASM MIME checked",
+      "nativeLaunch": "pending"
+    },
+    {
+      "platform": "mac-x64",
+      "status": "passed",
+      "files": 22,
+      "verifiedBytes": 48128337,
+      "translationBytes": 853316380,
+      "translationDirections": 6,
+      "modelSha256": "afdb6f1a0e45b715d0bb9b11772f032c399babd23bfc31fed1c170afc848bdb1",
+      "method": "Exact packaged files fetched through the desktop asset handler; SHA-256, length and WASM MIME checked",
+      "nativeLaunch": "pending"
+    },
+    {
+      "platform": "mac-arm64",
+      "pageHashVerification": "passed",
+      "MachOFiles": 13
+    },
+    {
+      "platform": "mac-x64",
+      "pageHashVerification": "passed",
+      "MachOFiles": 13
+    }
+  ]
+}

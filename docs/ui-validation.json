@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "currentRelease": "2.0.0",
+  "currentReleaseBrowserValidation": "Pending: interactive preview unavailable for this build",
+  "environment": "Managed preview browser; desktop viewport; synthetic comments only",
+  "checks": [
+    "WASM semantic model loads from local assets",
+    "Exact original evidence displays with source and date",
+    "Swahili navigation and action approval",
+    "Planned, active and completed improvement states",
+    "Explicit demo outcome saved",
+    "Consent gate disables feedback save until checked",
+    "Saved email/phone strings are redacted",
+    "Notebook and completed plan survive browser reload"
+  ],
+  "screenshot": "product-screenshot.jpg",
+  "screenshotNote": "Historical 1.0 screenshot; not a screenshot of the current 2.0 interface. Contains 24 seeded examples plus one authored synthetic form test, and one demonstration improvement",
+  "notTested": [
+    "target smartphone memory/performance",
+    "real-browser airplane-mode installation",
+    "native-speaker localization review",
+    "independent visitor evaluation",
+    "WebMCP context unavailable"
+  ]
+}

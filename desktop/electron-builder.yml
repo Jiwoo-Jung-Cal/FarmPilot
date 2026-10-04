@@ -1,0 +1,49 @@
+appId: org.noorfieldnotes.desktop
+productName: FarmPilot
+asar: true
+npmRebuild: false
+forceCodeSigning: false
+afterPack: ./installer-hook.cjs
+directories:
+  output: ../release
+  buildResources: assets
+files:
+  - main.cjs
+  - preload.cjs
+  - protocol.cjs
+  - package.json
+  - LICENSE
+extraResources:
+  - from: ../public
+    to: fieldnotes
+    filter: ["**/*"]
+win:
+  icon: assets/icon.ico
+  target:
+    - target: nsis
+      arch: [x64]
+  signExecutable: false
+nsis:
+  installerLanguages: [en_US]
+  artifactName: FarmPilot-Setup-${version}-${arch}.${ext}
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  license: ../LICENSE
+  script: assets/installer.nsi
+mac:
+  icon: assets/icon.icns
+  category: public.app-category.business
+  identity: "-"
+  hardenedRuntime: false
+  entitlements: assets/entitlements.plist
+  entitlementsInherit: assets/entitlements.plist
+  target:
+    - target: dmg
+      arch: [universal]
+dmg:
+  artifactName: FarmPilot-${version}-${arch}.${ext}
+  title: FarmPilot
+  sign: false

@@ -1,0 +1,14 @@
+{
+  "verifiedChunks": 130,
+  "verifiedTranslationBytes": 853316380,
+  "directions": 6,
+  "sourcePartitionIdsDisjoint": [
+    "en-fr-training",
+    "es-en-training",
+    "fr-en-training",
+    "en-es-training",
+    "en-sw-training",
+    "sw-en-training"
+  ],
+  "limitations": "Integrity and supplied partition IDs verified. Fine-tuning and held-out translation scores inherited from supplied training records, not rerun in this deadline patch."
+}

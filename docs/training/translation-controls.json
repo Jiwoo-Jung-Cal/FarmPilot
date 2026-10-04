@@ -1,0 +1,22 @@
+{
+  "passed": 16,
+  "checks": [
+    "English-pivot pair routing",
+    "same-language no-op",
+    "matching numbers and currencies pass",
+    "missing price and changed currency flagged",
+    "changed time flagged",
+    "corrupt install fails atomically",
+    "verified optional pack installation",
+    "model config and ONNX assembly work with network unavailable",
+    "remote message requests blocked",
+    "input size guard and same-language original preservation",
+    "model removal clears readiness",
+    "invalid archive rejected",
+    "Swahili archive installs both real directions with network disabled",
+    "French archive installs both real directions with network disabled",
+    "Spanish archive installs both real directions with network disabled",
+    "corrupt archive never marks a model installed"
+  ],
+  "limitations": "Real ZIP files and CacheStorage worker behavior exercised in a Node VM. Neural inference tested separately with ONNX Runtime Node; real phone/browser RAM, battery and speed remain unmeasured."
+}

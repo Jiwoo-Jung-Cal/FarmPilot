@@ -1,0 +1,482 @@
+{
+  "runtime": "ONNX Runtime Node, q8, Transformers.js 3.8.1; not a phone/browser performance measurement",
+  "results": [
+    {
+      "pair": "en-sw",
+      "seconds": 3.639736363,
+      "flores": [
+        {
+          "id": 1,
+          "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+          "reference": "\"Sasa tuna panya wenye umri wa miezi minne ambao hawana kisukari ambao awali walikuwa na kisukari\", aliongeza. ",
+          "output": "\"Sasa tuna panya wa miezi minne ambao hawakuwa na tatizo la kisukari kwa sasa,\" aliongeza."
+        },
+        {
+          "id": 2,
+          "source": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+          "reference": "Dak. Ehud Ur, profesa wa udaktari katika chuo kikuu cha Dalhousie kule Halifix, Nova Scotia na mwenyekiti wa kitengo cha kliniki na kisayansi kwenye ushirika wa ugonjwa wa kisukari nchini Canada alionya kuwa utafiti bado uko kwenye siku za mapema.",
+          "output": "Ehudi Uru, profesa wa tiba kwenye Chuo Kikuu cha Dalhousie huko Murex, Nova Scoia na kiti cha mgawanyiko wa kikliniki na kisayansi wa Shirika la Ugonjwa wa Kisukari la Kanada alionya kwamba utafiti huo bado unaendelea katika siku za mapema za upevuzi."
+        },
+        {
+          "id": 3,
+          "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+          "reference": "Kama wataalam wengine, ana shaka kuhusu kama ugonjwa wa kisukari unaweza kutibiwa, akagundua kuwa matokeo haya hayana umuhimu kwa watu ambao tayari wana ugojwa wa kisukari wa aina 1.",
+          "output": "Kama wataalamu wengine, anatilia shaka ikiwa ugonjwa wa kisukari unaweza kutibiwa, na anasema kwamba uchunguzi huo hauna umuhimu kwa watu ambao tayari wana ugonjwa wa kisukari wa Aina ya 1."
+        },
+        {
+          "id": 4,
+          "source": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+          "reference": "Mnamo Jumatatu, Sara Danius, katibu wa kudumu wa Kamati ya Nobel ya Fasihi katika Chuo cha Uswidi, alitangaza hadharani wakati wa kipindi cha redio kwenye Sveriges Radio katika Uswidi kwamba kamati hiyo, kwa kutoweza kumfikia Bob Dylan moja kwa moja kuhusu ushindi wa Tuzo la Nobel la Fasihi 2016, iliacha juhudi zake za kujaribu kumfikia.",
+          "output": "Jumatatu, Sara Danius, katibu wa kudumu wa Halmashauri ya Nobeli ya Fasihi kwenye Chuo cha Sweden, alitangaza hadharani wakati wa kipindi cha redio kwenye redio ya Sveriges Radio nchini Sweden, kwa kushindwa kufika Bob Dylan moja kwa moja kuhusu kushinda Tuzo ya Nobeli ya mwaka 2016 katika Literature, alikuwa ameacha jitihada zake za kumfikia."
+        },
+        {
+          "id": 5,
+          "source": "Danius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+          "reference": "Danius alisema, \"Sasa hivi hatufanyi chochote. Nimepiga simu na kutuma barua pepe kwa mshirika wake wa karibu na kupata majibu ya kirafiki sana. Kwa sasa, hakika hiyo imetosha.\"",
+          "output": "Danius alisema, \"Sasa hivi hatufanyi chochote. nimepiga simu na kutuma barua pepe kwa rafiki yake wa karibu na kupokea majibu ya kirafiki. kwa sasa hii inatosha.\""
+        },
+        {
+          "id": 6,
+          "source": "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage.",
+          "reference": "Hapo awali, Mkurugenzi Mtendaji wa Ring, Jamie Siminoff, alitamka kampuni hiyo ilianza wakati kengele yake ya mlangoni haikuwa inasikika katika duka lake kwenye karakana yake.",
+          "output": "Hapo awali kampuni ya Ring's WoO, Jamie Simiff, ilisema kwamba kampuni hiyo ilianza wakati kengele yake ya mlangoni ilipokosa kusikika kutoka kwa duka lake katika gereji yake."
+        },
+        {
+          "id": 7,
+          "source": "He built a WiFi door bell, he said.",
+          "reference": "Aliunda kengele ya mlango ya Wi-Fi, alisema.",
+          "output": "Alijenga kengele ya mlango wa WiFi, akasema."
+        },
+        {
+          "id": 8,
+          "source": "Siminoff said sales boosted after his 2013 appearance in a Shark Tank episode where the show panel declined funding the startup.",
+          "reference": "Siminoff alisema mauzo yaliongezeka baada ya yeye kuonekana katika kipindi cha Shark Tank mnamo 2013 ambapo paneli ya onyesho hilo ilikataa kufadhili biashara hiyo mpya.",
+          "output": "Siminoff alisema mauzo yaliongeza sauti baada ya kuonekana kwake kwa mwaka 2013 katika kipindi cha julali cha Shark ambapo jopo la maonyesho lilikataa msaada wa kwanza."
+        }
+      ],
+      "tourism": [
+        {
+          "source": "Can we visit the farm tomorrow?",
+          "output": "Je, tunaweza kuzuru shamba kesho?"
+        },
+        {
+          "source": "The visit costs KES 1200 for 2 people.",
+          "output": "Ziara hiyo hugharimu KES 1200 kwa watu 2."
+        },
+        {
+          "source": "We can meet at 10:00.",
+          "output": "Tunaweza kukutana saa nne asubuhi."
+        },
+        {
+          "source": "Is this a guided walk or a coffee tasting?",
+          "output": "Je, hii ni matembezi ya kuongozwa au kahawa inaonja?"
+        },
+        {
+          "source": "Can I try grinding the coffee?",
+          "output": "naweza kujaribu kusaga kahawa?"
+        },
+        {
+          "source": "Is there a place to sit in the shade?",
+          "output": "kuna mahali pa kuketi chini?"
+        },
+        {
+          "source": "Can you explain the difference between arabica and robusta?",
+          "output": "unaweza kueleza tofauti kati ya neno la arabica na mrebrari?"
+        },
+        {
+          "source": "Does the tasting include an espresso or filter coffee?",
+          "output": "Je, ladha hiyo inatia ndani spreso au kahawa ya chujio?"
+        },
+        {
+          "source": "Can I buy roasted coffee after the visit?",
+          "output": "naweza kununua kahawa iliyokaangwa baada ya ziara?"
+        },
+        {
+          "source": "Is the path suitable for a wheelchair?",
+          "output": "Je, barabara hiyo inafaa kwa kiti cha magurudumu?"
+        },
+        {
+          "source": "We cannot confirm the visit until the operator approves it.",
+          "output": "Hatuwezi kuthibitisha ziara hiyo mpaka mwenye kuipokea."
+        },
+        {
+          "source": "Please contact the operator to discuss transport and dietary needs.",
+          "output": "tafadhali wasiliana na opareta ili kuzungumzia mahitaji ya usafirishaji na chakula."
+        }
+      ]
+    },
+    {
+      "pair": "sw-en",
+      "seconds": 2.142449558,
+      "flores": [
+        {
+          "id": 1,
+          "source": "\"Sasa tuna panya wenye umri wa miezi minne ambao hawana kisukari ambao awali walikuwa na kisukari\", aliongeza. ",
+          "reference": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+          "output": "\" we now have a four - month - old rats with no diabetes that had previously diabetes \", he added."
+        },
+        {
+          "id": 2,
+          "source": "Dak. Ehud Ur, profesa wa udaktari katika chuo kikuu cha Dalhousie kule Halifix, Nova Scotia na mwenyekiti wa kitengo cha kliniki na kisayansi kwenye ushirika wa ugonjwa wa kisukari nchini Canada alionya kuwa utafiti bado uko kwenye siku za mapema.",
+          "reference": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+          "output": "Little. Ehud Ur, professor of medicine at Dalhousie University in the environment of the Novas and chairman of the clinic and science for Canadian diabetes, warned that research is still in the early days."
+        },
+        {
+          "id": 3,
+          "source": "Kama wataalam wengine, ana shaka kuhusu kama ugonjwa wa kisukari unaweza kutibiwa, akagundua kuwa matokeo haya hayana umuhimu kwa watu ambao tayari wana ugojwa wa kisukari wa aina 1.",
+          "reference": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+          "output": "If they were to marrylam, he is skeptical about the treatment for diabetes, finding that this is no longer the case for those who are already deemed 1 diabetes."
+        },
+        {
+          "id": 4,
+          "source": "Mnamo Jumatatu, Sara Danius, katibu wa kudumu wa Kamati ya Nobel ya Fasihi katika Chuo cha Uswidi, alitangaza hadharani wakati wa kipindi cha redio kwenye Sveriges Radio katika Uswidi kwamba kamati hiyo, kwa kutoweza kumfikia Bob Dylan moja kwa moja kuhusu ushindi wa Tuzo la Nobel la Fasihi 2016, iliacha juhudi zake za kujaribu kumfikia.",
+          "reference": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+          "output": "On Monday, Sarah Danus, the permanent secretary for Nobel's Committee on the Opsity of Onion at the J."
+        },
+        {
+          "id": 5,
+          "source": "Danius alisema, \"Sasa hivi hatufanyi chochote. Nimepiga simu na kutuma barua pepe kwa mshirika wake wa karibu na kupata majibu ya kirafiki sana. Kwa sasa, hakika hiyo imetosha.\"",
+          "reference": "Danius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+          "output": "Danus said, \"At this moment we don't do anything, and i have sent an out - of - mail to his close and close party to find the most friendly answers, and this is enough for me now. \""
+        },
+        {
+          "id": 6,
+          "source": "Hapo awali, Mkurugenzi Mtendaji wa Ring, Jamie Siminoff, alitamka kampuni hiyo ilianza wakati kengele yake ya mlangoni haikuwa inasikika katika duka lake kwenye karakana yake.",
+          "reference": "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage.",
+          "output": "Previously, Ringer, the director of Ring, was able to pronounce the company when its door bell was not heard in her shop at her shop."
+        },
+        {
+          "id": 7,
+          "source": "Aliunda kengele ya mlango ya Wi-Fi, alisema.",
+          "reference": "He built a WiFi door bell, he said.",
+          "output": "He made the entrance alarm for Wiuctilla, he said."
+        },
+        {
+          "id": 8,
+          "source": "Siminoff alisema mauzo yaliongezeka baada ya yeye kuonekana katika kipindi cha Shark Tank mnamo 2013 ambapo paneli ya onyesho hilo ilikataa kufadhili biashara hiyo mpya.",
+          "reference": "Siminoff said sales boosted after his 2013 appearance in a Shark Tank episode where the show panel declined funding the startup.",
+          "output": "Siminoff said that his sales were increased after he was seen in the 2013 B.C.E. when he refused to promote the new trade."
+        }
+      ],
+      "tourism": []
+    },
+    {
+      "pair": "en-fr",
+      "seconds": 4.061014862,
+      "flores": [
+        {
+          "id": 1,
+          "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+          "reference": "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+          "output": "« Nous avons maintenant des souris de quatre mois qui ne sont pas diabétiques et qui étaient auparavant diabétiques », a-t-il ajouté."
+        },
+        {
+          "id": 2,
+          "source": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+          "reference": "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+          "output": "Le Dr Urud Ur, professeur de médecine à l'Université Dalhousie à Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète a averti que la recherche en était encore à ses débuts."
+        },
+        {
+          "id": 3,
+          "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+          "reference": "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+          "output": "Comme d'autres experts, il est sceptique quant à la possibilité de guérir le diabète, en notant que ces résultats n'ont aucune pertinence pour les personnes qui ont déjà un diabète de type 1."
+        },
+        {
+          "id": 4,
+          "source": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+          "reference": "Lundi, lors d'une émission de radio sur Sveriges Radio, en Suède, Sara Danius, secrétaire permanente du Comité Nobel de Littérature de l'Académie Suédoise, a annoncé publiquement que le comité, incapable de joindre directement Bob Dylan au sujet du prix Nobel de littérature 2016, avait renoncé à le contacter.",
+          "output": "Lundi, Sara Danius, secrétaire permanente du Comité Nobel de littérature à l'Académie suédoise, a annoncé publiquement lors d'une émission radio sur la radio de Sveriges en Suède le comité, incapable de joindre directement Bob Dylan pour gagner le prix Nobel de littérature 2016, avait abandonné ses efforts pour le joindre."
+        },
+        {
+          "id": 5,
+          "source": "Danius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+          "reference": "Danius a déclaré : « En ce moment, nous ne faisons rien. J'ai appelé et envoyé des courriels à son plus proche collaborateur et j'ai reçu des réponses très amicales. Pour l'instant, c'est certainement suffisant. »",
+          "output": "Danius a dit, \"En ce moment nous ne faisons rien. J'ai appelé et envoyé des e-mails à son plus proche collaborateur et a reçu des réponses très amicales. Pour l'instant, cela suffit certainement.\""
+        },
+        {
+          "id": 6,
+          "source": "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage.",
+          "reference": "Auparavant, le PDG de Ring, Jamie Siminoff, a fait remarquer qu'il a lancé l'entreprise lorsque la sonnette de sa porte d'entrée n'était pas audible depuis son magasin dans son garage.",
+          "output": "Auparavant, le PDG de Ring, Jamie Siminoff, a remarqué que la société avait commencé quand sa sonnette n'était pas audible de sa boutique dans son garage."
+        },
+        {
+          "id": 7,
+          "source": "He built a WiFi door bell, he said.",
+          "reference": "Il dit avoir conçu une sonnette de porte Wi-Fi.",
+          "output": "Il a construit une cloche de porte WiFi, il a dit."
+        },
+        {
+          "id": 8,
+          "source": "Siminoff said sales boosted after his 2013 appearance in a Shark Tank episode where the show panel declined funding the startup.",
+          "reference": "M. Siminoff a déclaré que les ventes ont augmenté après son apparition en 2013 dans un épisode de Shark Tank où le panel de la série a refusé de financer la start-up.",
+          "output": "Siminoff a déclaré que les ventes ont augmenté après son apparition en 2013 dans un épisode de Shark tank où le panel du spectacle a refusé de financer la startup."
+        }
+      ],
+      "tourism": [
+        {
+          "source": "Can we visit the farm tomorrow?",
+          "output": "pouvons-nous visiter la ferme demain?"
+        },
+        {
+          "source": "The visit costs KES 1200 for 2 people.",
+          "output": "La visite coûte à KES 1200 pour 2 personnes."
+        },
+        {
+          "source": "We can meet at 10:00.",
+          "output": "on peut se voir à 22 h."
+        },
+        {
+          "source": "Is this a guided walk or a coffee tasting?",
+          "output": "Est-ce une promenade guidée ou une dégustation de café?"
+        },
+        {
+          "source": "Can I try grinding the coffee?",
+          "output": "puis-je essayer de broyer le café ?"
+        },
+        {
+          "source": "Is there a place to sit in the shade?",
+          "output": "Y a-t-il un endroit pour s'asseoir à l'ombre ?"
+        },
+        {
+          "source": "Can you explain the difference between arabica and robusta?",
+          "output": "pouvez-vous expliquer la différence entre arabica et robusta?"
+        },
+        {
+          "source": "Does the tasting include an espresso or filter coffee?",
+          "output": "Est-ce que la dégustation comprend un café expresso ou filtrer?"
+        },
+        {
+          "source": "Can I buy roasted coffee after the visit?",
+          "output": "puis-je acheter du café torréfié après la visite?"
+        },
+        {
+          "source": "Is the path suitable for a wheelchair?",
+          "output": "Le chemin convient-il pour un fauteuil roulant?"
+        },
+        {
+          "source": "We cannot confirm the visit until the operator approves it.",
+          "output": "Nous ne pouvons confirmer la visite avant que l'exploitant ne l'approuve."
+        },
+        {
+          "source": "Please contact the operator to discuss transport and dietary needs.",
+          "output": "Veuillez contacter l'exploitant pour discuter des besoins en matière de transport et de régime alimentaire."
+        }
+      ]
+    },
+    {
+      "pair": "fr-en",
+      "seconds": 2.459656584,
+      "flores": [
+        {
+          "id": 1,
+          "source": "« Nous avons à présent des souris de 4 mois qui ne sont pas diabétiques alors qu'elles l'étaient auparavant », a-t-il ajouté.",
+          "reference": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+          "output": "\"We now have four month old mice that are not diabetic when they were before,\" he added."
+        },
+        {
+          "id": 2,
+          "source": "Le Dr Ehud Ur, professeur de médecine à l'Université Dalhousie de Halifax (Nouvelle-Écosse) et président de la division clinique et scientifique de l'Association canadienne du diabète, a averti que la recherche en était encore à ses débuts.",
+          "reference": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+          "output": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and president of the clinical and scientific division of the Canadian Diabetes Association, warned that the research was still in its early stages."
+        },
+        {
+          "id": 3,
+          "source": "À l'instar d'autres experts, il se montre sceptique quant à la possibilité de guérir le diabète, faisant remarquer que ces résultats ne sont pas applicables aux personnes qui souffrent déjà de diabète de type 1.",
+          "reference": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+          "output": "Like other experts, he was skeptical about the possibility of curing diabetes, noting that these results were not applicable to people who already had type 1 diabetes."
+        },
+        {
+          "id": 4,
+          "source": "Lundi, lors d'une émission de radio sur Sveriges Radio, en Suède, Sara Danius, secrétaire permanente du Comité Nobel de Littérature de l'Académie Suédoise, a annoncé publiquement que le comité, incapable de joindre directement Bob Dylan au sujet du prix Nobel de littérature 2016, avait renoncé à le contacter.",
+          "reference": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+          "output": "On Monday, during a radio show on Sveriges Radio in Sweden, Sara Danius, permanent secretary of the Nobel Littérature Committee of the Swedish Academy, publicly announced that the committee, unable to reach directly Bob Dylan about the 2016 Nobel Prize for literature, had renounced to contact him."
+        },
+        {
+          "id": 5,
+          "source": "Danius a déclaré : « En ce moment, nous ne faisons rien. J'ai appelé et envoyé des courriels à son plus proche collaborateur et j'ai reçu des réponses très amicales. Pour l'instant, c'est certainement suffisant. »",
+          "reference": "Danius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+          "output": "Danius said, \"At this moment we are doing nothing. I have called and sent emails to his closest collaborator and have received very friendly answers. For now, that is certainly enough.\""
+        },
+        {
+          "id": 6,
+          "source": "Auparavant, le PDG de Ring, Jamie Siminoff, a fait remarquer qu'il a lancé l'entreprise lorsque la sonnette de sa porte d'entrée n'était pas audible depuis son magasin dans son garage.",
+          "reference": "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage.",
+          "output": "Previously, the CEO of Ring, James Siminoff, noted that he started the company when the bell on his front door was not audible from his shop in his garage."
+        },
+        {
+          "id": 7,
+          "source": "Il dit avoir conçu une sonnette de porte Wi-Fi.",
+          "reference": "He built a WiFi door bell, he said.",
+          "output": "He said he designed a Wi-Fi doorbell."
+        },
+        {
+          "id": 8,
+          "source": "M. Siminoff a déclaré que les ventes ont augmenté après son apparition en 2013 dans un épisode de Shark Tank où le panel de la série a refusé de financer la start-up.",
+          "reference": "Siminoff said sales boosted after his 2013 appearance in a Shark Tank episode where the show panel declined funding the startup.",
+          "output": "Mr.Siminoff stated that sales increased after its appearance in 2013 in an episode in Shark Tank where the panel of the series refused to fund the start-up."
+        }
+      ],
+      "tourism": []
+    },
+    {
+      "pair": "en-es",
+      "seconds": 3.201926245999999,
+      "flores": [
+        {
+          "id": 1,
+          "source": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+          "reference": "«Actualmente, tenemos ratones de cuatro meses de edad que antes solían ser diabéticos y que ya no lo son», agregó.",
+          "output": "\"Ahora tenemos ratones de cuatro meses que no son diabéticos que solían ser diabéticos\", agregó."
+        },
+        {
+          "id": 2,
+          "source": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+          "reference": "La investigación todavía se ubica en su etapa inicial, conforme indicara el Dr. Ehud Ur, docente en la carrera de medicina de la Universidad de Dalhousie, en Halifax, Nueva Escocia, y director del departamento clínico y científico de la Asociación Canadiense de Diabetes.",
+          "output": "el Dr. Ehud Ur, profesor de medicina en la Universidad de Dalhousie en Halifax, Nueva Escocia y presidente de la división clínica y científica de la Asociación Canadiense de Diabetes advirtió que la investigación todavía está en sus primeros días."
+        },
+        {
+          "id": 3,
+          "source": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+          "reference": "Al igual que otros especialistas, es escéptico acerca de si la diabetes tiene cura y remarca que estos descubrimientos no son relevantes para quienes que ya padecen de diabetes de tipo 1.",
+          "output": "Como otros expertos, es escéptico sobre si la diabetes puede curarse y señala que estos hallazgos no tienen relevancia para las personas que ya tienen diabetes tipo 1."
+        },
+        {
+          "id": 4,
+          "source": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+          "reference": "El lunes, Sara Danius, secretaria permanente del Comité por el Nobel de Literatura de la Academia Sueca, declaró públicamente en un programa radiofónico de Sveriges, en Suecia, que, al no poder contactar directamente con Bob Dylan para comunicarle el premio en Literatura 2016, el comité había abandonado sus esfuerzos por comunicarse con él.",
+          "output": "El lunes, Sara Danius, secretaria permanente del Comité Nobel de Literatura de la Academia sueca, anunció públicamente durante un programa de radio en la radio Sveriges en Suecia el comité, incapaz de llegar a Bob Dylan directamente sobre la obtención del Premio Nobel de Literatura 2016, había abandonado sus esfuerzos para llegar a él."
+        },
+        {
+          "id": 5,
+          "source": "Danius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+          "reference": "Danius declaró: «Actualmente no estamos haciendo nada. Llamé y envié correos electrónicos a su asistente más cercano y recibí contestaciones muy cordiales. Por el momento, eso es sin dudas suficiente».",
+          "output": "Dijo: «Ahora mismo no hacemos nada. Llamé y envié correos electrónicos a su colaborador más cercano y recibí respuestas muy amables. Por ahora, eso es sin duda suficiente»."
+        },
+        {
+          "id": 6,
+          "source": "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage.",
+          "reference": "Con anterioridad, el director ejecutivo de Ring, Jamie Siminoff, mencionó que la compañía había iniciado a raíz de que el timbre de su entrada no podía oírse desde la tienda que tenía montada en su garaje.",
+          "output": "Anteriormente el director ejecutivo de Ring, Jamie Siminoff, comentó que la compañía comenzó cuando su timbre no era audible de su tienda en su garaje."
+        },
+        {
+          "id": 7,
+          "source": "He built a WiFi door bell, he said.",
+          "reference": "Él dijo que construyó un timbre wifi.",
+          "output": "Construyó una campana de la puerta de la WiFi, dijo."
+        },
+        {
+          "id": 8,
+          "source": "Siminoff said sales boosted after his 2013 appearance in a Shark Tank episode where the show panel declined funding the startup.",
+          "reference": "Siminoff declaró que las ventas se dispararon luego de su aparición en un episodio de Shark Tank en el año 2013, en el que el panel del programa televisivo se negó a financiar la puesta en marcha de la compañía.",
+          "output": "Siminoff dijo que las ventas se incrementaron después de su aparición en 2013 en un episodio de Shark Tank donde el panel de la serie declinó financiar la startup."
+        }
+      ],
+      "tourism": [
+        {
+          "source": "Can we visit the farm tomorrow?",
+          "output": "¿Podemos visitar la granja mañana?"
+        },
+        {
+          "source": "The visit costs KES 1200 for 2 people.",
+          "output": "La visita cuesta KE 1200 para 2 personas."
+        },
+        {
+          "source": "We can meet at 10:00.",
+          "output": "Podemos reunirnos a las diez."
+        },
+        {
+          "source": "Is this a guided walk or a coffee tasting?",
+          "output": "¿Es una caminata guiada o una degustación de café?"
+        },
+        {
+          "source": "Can I try grinding the coffee?",
+          "output": "¿Puedo probar a moler el café?"
+        },
+        {
+          "source": "Is there a place to sit in the shade?",
+          "output": "¿Hay algún lugar donde sentarse a la sombra?"
+        },
+        {
+          "source": "Can you explain the difference between arabica and robusta?",
+          "output": "¿Puedes explicar la diferencia entre arabica y drogo?"
+        },
+        {
+          "source": "Does the tasting include an espresso or filter coffee?",
+          "output": "¿La degustación incluye un café expreso o filtro?"
+        },
+        {
+          "source": "Can I buy roasted coffee after the visit?",
+          "output": "puedo comprar café tostado después de la visita?"
+        },
+        {
+          "source": "Is the path suitable for a wheelchair?",
+          "output": "¿El camino es adecuado para una silla de ruedas?"
+        },
+        {
+          "source": "We cannot confirm the visit until the operator approves it.",
+          "output": "No podemos confirmar la visita hasta que el operador la apruebe."
+        },
+        {
+          "source": "Please contact the operator to discuss transport and dietary needs.",
+          "output": "por favor comuníquese con el operador para hablar sobre las necesidades de transporte y dieta."
+        }
+      ]
+    },
+    {
+      "pair": "es-en",
+      "seconds": 2.638502162999999,
+      "flores": [
+        {
+          "id": 1,
+          "source": "«Actualmente, tenemos ratones de cuatro meses de edad que antes solían ser diabéticos y que ya no lo son», agregó.",
+          "reference": "\"We now have 4-month-old mice that are non-diabetic that used to be diabetic,\" he added.",
+          "output": "\"Today we have four months old mice that used to be diabetic and are no longer diabetic,\" he added."
+        },
+        {
+          "id": 2,
+          "source": "La investigación todavía se ubica en su etapa inicial, conforme indicara el Dr. Ehud Ur, docente en la carrera de medicina de la Universidad de Dalhousie, en Halifax, Nueva Escocia, y director del departamento clínico y científico de la Asociación Canadiense de Diabetes.",
+          "reference": "Dr. Ehud Ur, professor of medicine at Dalhousie University in Halifax, Nova Scotia and chair of the clinical and scientific division of the Canadian Diabetes Association cautioned that the research is still in its early days.",
+          "output": "The research is still in its initial stage, as indicated by Dr. Ehud Ur, professor in the medical career at Dalhousie University in Halifax, Nova Scotia, and director of the clinical and scientific department of the Canadian Diabetes Association."
+        },
+        {
+          "id": 3,
+          "source": "Al igual que otros especialistas, es escéptico acerca de si la diabetes tiene cura y remarca que estos descubrimientos no son relevantes para quienes que ya padecen de diabetes de tipo 1.",
+          "reference": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+          "output": "Like other specialists, she is skeptical about whether diabetes has a cure and points out that these findings are not relevant to those who already have type 1 diabetes."
+        },
+        {
+          "id": 4,
+          "source": "El lunes, Sara Danius, secretaria permanente del Comité por el Nobel de Literatura de la Academia Sueca, declaró públicamente en un programa radiofónico de Sveriges, en Suecia, que, al no poder contactar directamente con Bob Dylan para comunicarle el premio en Literatura 2016, el comité había abandonado sus esfuerzos por comunicarse con él.",
+          "reference": "On Monday, Sara Danius, permanent secretary of the Nobel Committee for Literature at the Swedish Academy, publicly announced during a radio program on Sveriges Radio in Sweden the committee, unable to reach Bob Dylan directly about winning the 2016 Nobel Prize in Literature, had abandoned its efforts to reach him.",
+          "output": "On Monday, Sara Danius, permanent secretary to the Nobel Committee for Literature at Su chanca Academy, publicly stated on a radio show by Sveriges in Sweden that by not being able to contact Bob Dylan directly to communicate the prize in literature 2016, the committee had abandoned its efforts to communicate with him."
+        },
+        {
+          "id": 5,
+          "source": "Danius declaró: «Actualmente no estamos haciendo nada. Llamé y envié correos electrónicos a su asistente más cercano y recibí contestaciones muy cordiales. Por el momento, eso es sin dudas suficiente».",
+          "reference": "Danius said, \"Right now we are doing nothing. I have called and sent emails to his closest collaborator and received very friendly replies. For now, that is certainly enough.\"",
+          "output": "Danius said: \"We are currently doing nothing. I called and emailed his nearest assistant and received very cordial replies. For the moment, that is certainly enough\"."
+        },
+        {
+          "id": 6,
+          "source": "Con anterioridad, el director ejecutivo de Ring, Jamie Siminoff, mencionó que la compañía había iniciado a raíz de que el timbre de su entrada no podía oírse desde la tienda que tenía montada en su garaje.",
+          "reference": "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage.",
+          "output": "Earlier, the executive director of Ring, Jamie Siminoff, mentioned that the company had started because the doorbell on his entrance could not be heard from the store he had set up in his garage."
+        },
+        {
+          "id": 7,
+          "source": "Él dijo que construyó un timbre wifi.",
+          "reference": "He built a WiFi door bell, he said.",
+          "output": "He said he built a wifi bell."
+        },
+        {
+          "id": 8,
+          "source": "Siminoff declaró que las ventas se dispararon luego de su aparición en un episodio de Shark Tank en el año 2013, en el que el panel del programa televisivo se negó a financiar la puesta en marcha de la compañía.",
+          "reference": "Siminoff said sales boosted after his 2013 appearance in a Shark Tank episode where the show panel declined funding the startup.",
+          "output": "Siminoff stated that sales were fired after his appearance in an episode of the 2013 episode of the \"Ship\" in which the television show panel refused to fund the start up of the company."
+        }
+      ],
+      "tourism": []
+    }
+  ]
+}
