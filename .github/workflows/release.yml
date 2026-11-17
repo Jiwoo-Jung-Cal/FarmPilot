@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir -p release
           (cd static && zip -qr "../release/FarmPilot-${RELEASE_TAG}-Static.zip" .)
-          cp README.md release/FarmPilot-Report.md
+          cp docs/TECHNICAL_REPORT.md release/FarmPilot-Report.md
           cp docs/VIDEO_SCRIPTS.md release/FarmPilot-Video-Scripts.md
           (cd release && sha256sum * > SHA256SUMS.txt)
       - name: Publish release assets
